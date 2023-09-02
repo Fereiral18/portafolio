@@ -1,0 +1,24 @@
+body{
+    margin: 0px
+}
+.container-navegation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    width: 100vw;
+    height: 100px;
+}
+.navegation{
+    margin-left: 20%;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+li{
+    margin-right: 20px;
+    list-style: none;
+}
