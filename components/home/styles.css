@@ -1,13 +1,14 @@
-body{
-    margin: 0px
+*,body{
+    margin: 0px; 
 }
 .container-navegation{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
+    background-color: black;
     width: 100vw;
-    height: 100px;
+    height: 14vh;
+
 }
 .navegation{
     margin-left: 20%;
@@ -18,7 +19,45 @@ body{
     flex-direction: row;
     margin-right: 30px;
 }
-li{
+li, p{
+    color: white;
     margin-right: 20px;
     list-style: none;
 }
+
+/* Centro */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 100vw;
+    height: 72vh;
+}
+.title-container{
+
+}
+p{
+    color: white;
+}
+.footer{
+   
+    height: 14vh;
+    background-color: black;
+   
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-personal, .copyrigth{
+    margin-top: 6vh;
+}
+.info-personal{
+    display: flex;
+    flex-direction: row;
+}
+
+
