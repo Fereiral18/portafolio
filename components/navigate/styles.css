@@ -1,0 +1,18 @@
+.container-navegation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 14vh;
+
+}
+.navegation{
+    margin-left: 20%;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}

@@ -1,0 +1,18 @@
+.footer{
+   
+    height: 14vh;
+    background-color: black;
+   
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-personal, .copyrigth{
+    margin-top: 6vh;
+}
+.info-personal{
+    display: flex;
+    flex-direction: row;
+}
